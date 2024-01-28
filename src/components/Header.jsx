@@ -7,9 +7,9 @@ const Header = () => {
     gsap.from("a", {
       opacity: 0,
       y: 10,
-      stagger: 0.1,
+      stagger: 0.3,
       delay: 1,
-      duration: 1,
+      duration: 1.5,
     });
   });
   return (
