@@ -48,7 +48,7 @@ const Lec8 = () => {
               data-speed="20"
             />
             <div
-              className="parallax text absolute z-[15] text-8xl  font-pop text-[#F8F7FF] mb-[490px]"
+              className="parallax text absolute z-[15] text-8xl  font-robo text-[#F8F7FF] mb-[490px]"
               data-speed="500"
             >
               <h1>Hack-AI-Thon</h1>
