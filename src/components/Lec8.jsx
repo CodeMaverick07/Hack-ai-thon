@@ -48,7 +48,7 @@ const Lec8 = () => {
               data-speed="20"
             />
             <div
-              className="parallax text absolute z-[15] text-8xl  font-ai text-[#F8F7FF] mb-[490px]"
+              className="parallax text absolute z-[15] text-8xl  font-ai text-[#F8F7FF] glow mb-[490px] tracking-[0.4em]"
               data-speed="500"
             >
               <h1>Hack-AI-Thon</h1>
@@ -56,7 +56,7 @@ const Lec8 = () => {
             <img
               src="/images1/middlefinal.png"
               alt=""
-              className="middle parallax w-[35%] h-auto mt-[250px] z-30"
+              className="middle parallax w-[35%] h-auto mt-[300px] z-30"
               data-speed="-20"
             />
 

@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxanium&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.glow {
+  text-shadow: 0 0 5px rgba(248, 247, 255, 0.8),
+    0 0 10px rgba(248, 247, 255, 0.8), 0 0 20px rgba(248, 247, 255, 0.8);
+}

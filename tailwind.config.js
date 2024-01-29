@@ -6,7 +6,7 @@ module.exports = {
       fontFamily: {
         mont: ["Montserrat", "sans-serif"],
         robo: ["Roboto Mono", "monospace"],
-        ai: ["Sixtyfour", "sans-serif"],
+        ai: ["Oxanium", "sans-serif"],
       },
     },
   },

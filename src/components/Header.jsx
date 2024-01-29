@@ -15,11 +15,21 @@ const Header = () => {
   return (
     <div className="z-[100] fixed w-screen h-auto">
       <nav className="flex text-xl gap-10 items-center justify-end text-white font-robo p-14">
-        <a href="/">About</a>
-        <a href="/">FAQ</a>
-        <a href="/">Sponsors</a>
-        <a href="/">Contact</a>
-        <a href="/">Team</a>
+        <a href="/" className="glow">
+          About
+        </a>
+        <a href="/" className="glow">
+          FAQ
+        </a>
+        <a href="/" className="glow">
+          Sponsors
+        </a>
+        <a href="/" className="glow">
+          Contact
+        </a>
+        <a href="/" className="glow">
+          Team
+        </a>
       </nav>
     </div>
   );
