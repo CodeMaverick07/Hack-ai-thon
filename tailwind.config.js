@@ -7,6 +7,7 @@ module.exports = {
         mont: ["Montserrat", "sans-serif"],
         robo: ["Roboto Mono", "monospace"],
         ai: ["Sixtyfour", "sans-serif"],
+        pop: ['Poppins', "sans-serif"],
       },
     },
   },
