@@ -12,4 +12,11 @@
 .glow {
   text-shadow: 0 0 5px rgba(248, 247, 255, 0.8),
     0 0 10px rgba(248, 247, 255, 0.8), 0 0 20px rgba(248, 247, 255, 0.8);
+  overflow: visible;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+* {
+  overflow: hidden;
 }
