@@ -13,7 +13,7 @@ const Header = () => {
   });
   return (
     <div className="z-[100] fixed w-screen h-auto">
-      <nav className="flex text-xl gap-10 items-center justify-end text-white font-robo p-14">
+      <nav className="flex text-xl gap-10 items-center justify-end text-white font-robo p-14 max-md:hidden">
         <a href="#about" className="glow">
           About
         </a>

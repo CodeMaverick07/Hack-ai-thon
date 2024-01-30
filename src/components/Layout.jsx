@@ -9,29 +9,29 @@ import HeroSection from "./HeroSection";
 
 const Layout = () => {
   useGSAP(() => {
-    const sections = gsap.utils.toArray(".scroll section");
+    const sections = gsap.utils.toArray("section");
     const scrollTween = gsap.to(sections, {
-      xPercent: -100 * (sections.length - 1),
+      xPercent: -100 * (3 - 1),
       ease: "none",
       scrollTrigger: {
         trigger: ".scroll",
         pin: true,
         scrub: 2,
+        toggleActions: "start none none reverse",
       },
-      duration: 3,
     });
   });
 
   return (
     <div className="outer overflow-x-hidden">
       <div className="scroll w-[300%] flex">
-        <section className="h-screen w-screen">
+        <section className="h-screen w-screen" id="faq">
           <FAQ />
         </section>
-        <section className="h-screen w-screen">
+        <section className="h-screen w-screen" id="contact">
           <Contact />
         </section>
-        <section className="h-screen w-screen">
+        <section className="h-screen w-screen" id="sponsors">
           <Sponsors />
         </section>
       </div>

@@ -14,3 +14,15 @@
     0 0 10px rgba(248, 247, 255, 0.8), 0 0 20px rgba(248, 247, 255, 0.8);
   overflow: visible;
 }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin {
+  animation: spin infinite 150s linear; /* You can adjust the duration and timing function as needed */
+}
