@@ -80,7 +80,7 @@ const HeroSection = () => {
         </section>
       </div>
       <div className="hidden max-md:flex h-screen w-screen justify-end bg-black overflow-x-hidden">
-        <RiMenu2Fill className="glow z-[100] text-[#F8F7FF] text-7xl p-5" />
+        <RiMenu2Fill className=" glow z-[100] text-[#F8F7FF] text-7xl p-5 cursor-pointer" />
         <div
           className="w-full text-center parallax text2 absolute z-[50] text-3xl  font-ai text-[#F8F7FF] glow mt-20 tracking-[0.3em]"
           data-speed="1000"
@@ -94,10 +94,10 @@ const HeroSection = () => {
           data-speed=""
         />
         <img
-          src="/images1/ph/main.png"
+          src="/images1/ph/mainc.png"
           alt=""
-          className="bg1 z-20 absolute w-[95%] h-auto mt-[84px] parallax"
-          data-speed="20"
+          className="bg1 z-20 absolute w-[95%] h-auto mt-[204px] rotate-180 parallax"
+          data-speed="40"
         />
         <img
           src="/images1/ph/middlecover.png"
