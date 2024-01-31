@@ -79,7 +79,7 @@ const HeroSection = () => {
           />
         </section>
       </div>
-      <div className="hidden max-md:flex h-screen w-screen justify-end bg-black overflow-x-hidden">
+      <div className="hidden max-md:flex h-screen w-screen justify-end bg-black overflow-x-hidden mt-10">
         <RiMenu2Fill className=" glow z-[100] text-[#F8F7FF] text-7xl p-5 cursor-pointer" />
         <div
           className="w-full text-center parallax text2 absolute z-[50] text-3xl  font-ai text-[#F8F7FF] glow mt-20 tracking-[0.3em]"
@@ -114,12 +114,12 @@ const HeroSection = () => {
         <img
           src="/images1/ph/small.png"
           alt=""
-          className="z-[25] absolute w-[25%] h-auto bottom-5 ml-12 parallax"
+          className="z-[25] absolute w-[25%] h-auto left-5 bottom-10 parallax"
           data-speed="-100"
         />
         <img
           src="/images1/mask.png"
-          className="h-full w-auto z-50  absolute opacity-100 parallax"
+          className="h-full w-auto z-50 absolute -bottom-2 opacity-100 parallax"
           alt=""
           data-speed="-2"
         />
