@@ -89,7 +89,7 @@ const HeroSection = () => {
         </div>
         <img
           className="h-screen w-auto absolute parallax"
-          src="/images1/ph/bgph2.png"
+          src="/images1/ph/bgph2.1.png"
           alt=""
           data-speed=""
         />
