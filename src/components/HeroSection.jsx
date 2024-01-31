@@ -96,7 +96,7 @@ const HeroSection = () => {
         <img
           src="/images1/ph/mainc.png"
           alt=""
-          className="bg1 z-20 absolute w-[95%] h-auto mt-[210px] rotate-180 parallax"
+          className="bg1 z-20 absolute w-[95%] h-auto mt-[212px] rotate-180 parallax"
           data-speed="40"
         />
         <img
