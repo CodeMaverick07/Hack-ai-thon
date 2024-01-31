@@ -115,7 +115,7 @@ const HeroSection = () => {
           src="/images1/ph/small.png"
           alt=""
           className="z-[25] absolute w-[25%] h-auto left-5 bottom-10 parallax"
-          data-speed="-100"
+          data-speed="-20"
         />
         <img
           src="/images1/mask.png"
