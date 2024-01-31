@@ -1,6 +1,14 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { RiMenu2Fill } from "react-icons/ri";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "./ui/sheet";
 
 const Header = () => {
   useGSAP(() => {
@@ -32,7 +40,21 @@ const Header = () => {
         </a>
       </nav>
       <div className="hidden max-md:flex justify-end p-6 text-3xl">
-        <RiMenu2Fill className=" glow text-[#F8F7FF] cursor-pointer" />
+        <Sheet>
+          <SheetTrigger>
+            {" "}
+            <RiMenu2Fill className=" glow text-[#F8F7FF] cursor-pointer" />
+          </SheetTrigger>
+          <SheetContent>
+            <SheetHeader>
+              <SheetTitle>Are you absolutely sure?</SheetTitle>
+              <SheetDescription>
+                This action cannot be undone. This will permanently delete your
+                account and remove your data from our servers.
+              </SheetDescription>
+            </SheetHeader>
+          </SheetContent>
+        </Sheet>
       </div>
     </div>
   );
