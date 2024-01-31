@@ -107,7 +107,7 @@ const HeroSection = () => {
         />
         <img
           src="/images1/ph/bottom.png"
-          className="z-40 absolute mt-[116px] parallax"
+          className="z-40 absolute -left-2 -bottom-2 parallax"
           alt=""
           data-speed="-8"
         />
@@ -121,7 +121,7 @@ const HeroSection = () => {
           src="/images1/mask.png"
           className="h-full w-auto z-50 absolute -bottom-2 opacity-100 parallax"
           alt=""
-          data-speed="-2"
+          data-speed="-1"
         />
       </div>
     </>
