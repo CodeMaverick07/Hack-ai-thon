@@ -79,7 +79,7 @@ const HeroSection = () => {
           />
         </section>
       </div>
-      <div className="hidden max-md:flex h-screen w-screen justify-end bg-black overflow-x-hidden mt-10">
+      <div className="hidden max-md:flex h-screen w-screen justify-end bg-black overflow-x-hidden">
         <RiMenu2Fill className=" glow z-[100] text-[#F8F7FF] text-7xl p-5 cursor-pointer" />
         <div
           className="w-full text-center parallax text2 absolute z-[50] text-3xl  font-ai text-[#F8F7FF] glow mt-20 tracking-[0.3em]"
@@ -89,7 +89,7 @@ const HeroSection = () => {
         </div>
         <img
           className="h-screen w-auto absolute parallax"
-          src="/images1/ph/bgph2.1.png"
+          src="/images1/ph/bgph2.1copy.png"
           alt=""
           data-speed=""
         />
