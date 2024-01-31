@@ -24,7 +24,8 @@
     "react-scripts": "5.0.1",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "react-starfield-animation": "1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
