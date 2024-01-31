@@ -88,7 +88,7 @@ const HeroSection = () => {
           <h1>Hack-AI-Thon</h1>
         </div>
         <img
-          className="h-[90vh] w-auto absolute parallax"
+          className="h-[85vh] w-auto absolute parallax"
           src="/images1/ph/bgph2.1.png"
           alt=""
           data-speed=""
