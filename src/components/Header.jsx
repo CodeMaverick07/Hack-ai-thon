@@ -1,5 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { RiMenu2Fill } from "react-icons/ri";
 
 const Header = () => {
   useGSAP(() => {
@@ -30,6 +31,9 @@ const Header = () => {
           Team
         </a>
       </nav>
+      <div className="hidden max-md:flex justify-end p-6 text-3xl">
+        <RiMenu2Fill className=" glow text-[#F8F7FF] cursor-pointer" />
+      </div>
     </div>
   );
 };
