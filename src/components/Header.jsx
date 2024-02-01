@@ -4,7 +4,7 @@ import { RiMenu2Fill } from "react-icons/ri";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
+  SheetClose,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -46,24 +46,26 @@ const Header = () => {
           </SheetTrigger>
           <SheetContent side="left" className="text-[#F8F7FF]">
             <SheetHeader>
-              <SheetTitle className="glow">Menu</SheetTitle>
-              <nav className="flex flex-col justify-start text-start gap-4 text-md">
-                <a href="#about" className="glow">
-                  About
-                </a>
-                <a href="#faq" className="glow">
-                  FAQ
-                </a>
-                <a href="#sponsors" className="glow">
-                  Sponsors
-                </a>
-                <a href="#contact" className="glow">
-                  Contact
-                </a>
-                <a href="#team" className="glow">
-                  Team
-                </a>
-              </nav>
+              <SheetTitle className="glow text-2xl">Menu</SheetTitle>
+              <SheetClose>
+                <nav className="flex flex-col justify-start text-start gap-4 text-xl">
+                  <a href="#about" className="glow">
+                    About
+                  </a>
+                  <a href="#faq" className="glow">
+                    FAQ
+                  </a>
+                  <a href="#sponsors" className="glow">
+                    Sponsors
+                  </a>
+                  <a href="#contact" className="glow">
+                    Contact
+                  </a>
+                  <a href="#team" className="glow">
+                    Team
+                  </a>
+                </nav>
+              </SheetClose>
             </SheetHeader>
           </SheetContent>
         </Sheet>
