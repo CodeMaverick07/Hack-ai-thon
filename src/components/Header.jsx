@@ -1,6 +1,14 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { RiMenu2Fill } from "react-icons/ri";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "./Sheet";
 
 const Header = () => {
   useGSAP(() => {
@@ -32,7 +40,33 @@ const Header = () => {
         </a>
       </nav>
       <div className="hidden max-md:flex justify-end p-6 text-3xl">
-        <RiMenu2Fill className=" glow text-[#F8F7FF] cursor-pointer" />
+        <Sheet>
+          <SheetTrigger>
+            <RiMenu2Fill className=" glow text-[#F8F7FF] cursor-pointer" />
+          </SheetTrigger>
+          <SheetContent side="left" className="text-[#F8F7FF]">
+            <SheetHeader>
+              <SheetTitle className="glow">Menu</SheetTitle>
+              <nav className="flex flex-col justify-start text-start gap-4 text-md">
+                <a href="#about" className="glow">
+                  About
+                </a>
+                <a href="#faq" className="glow">
+                  FAQ
+                </a>
+                <a href="#sponsors" className="glow">
+                  Sponsors
+                </a>
+                <a href="#contact" className="glow">
+                  Contact
+                </a>
+                <a href="#team" className="glow">
+                  Team
+                </a>
+              </nav>
+            </SheetHeader>
+          </SheetContent>
+        </Sheet>
       </div>
     </div>
   );
