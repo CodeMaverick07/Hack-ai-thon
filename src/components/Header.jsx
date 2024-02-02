@@ -21,8 +21,8 @@ const Header = () => {
     });
   });
   return (
-    <div className="z-[100] fixed w-screen h-auto overflow-visible">
-      <nav className="flex text-xl gap-10 items-center justify-end text-white font-robo p-6 max-md:hidden">
+    <div className="z-[100] fixed w-screen h-auto overflow-visible md:pt-10 md:pr-10">
+      <nav className="flex text-2xl gap-10 items-center justify-end text-white p-6 max-md:hidden font-nav">
         <a href="#about" className="glow">
           About
         </a>
