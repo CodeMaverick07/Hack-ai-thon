@@ -3,11 +3,11 @@ import { FaLinkedin } from "react-icons/fa";
 function Sponsors() {
   return (
     <>
-      <div className="h-screen w-screen">
+      <div className="h-screen w-screen bg-[#11161F]">
         <div className="mx-auto max-w-7xl  sm:px-6 lg:px-8 pt-32">
           <div className="max-md:h-screen relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
-            <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Sponsors
+            <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-wider text-white sm:text-6xl font-ai glow">
+              SPONSORS
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
               Aliquip reprehenderit incididunt amet quis fugiat ut velit. Sit

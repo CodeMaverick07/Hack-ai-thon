@@ -4,9 +4,9 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import { ReactLenis } from "@studio-freight/react-lenis";
 import Sponsors from "./components/Sponsors";
-
 import Footer from "./components/Footer";
 import Layout from "./components/Layout";
+import TimeLine from "./components/TimeLine";
 
 function App() {
   return (
@@ -18,7 +18,8 @@ function App() {
         </div>
 
         <About />
-        <Layout />
+        <TimeLine />
+        {/* <Layout /> */}
         <Sponsors />
         <Footer />
         <Starfield

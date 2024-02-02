@@ -38,7 +38,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <div className="-mt-10 main bg-black max-md:hidden" id="hero">
+      <div className="-mt-10 main bg-[#11161F] max-md:hidden " id="hero">
         <section className="flex justify-center items-center">
           <img
             src="/images1/bg111.png"
@@ -53,10 +53,10 @@ const HeroSection = () => {
             data-speed="20"
           />
           <div
-            className="parallax text absolute z-[15] text-8xl  font-ai text-[#F8F7FF] glow mb-[470px] tracking-[0.4em]"
+            className="parallax text absolute z-[15] text-[4.6rem]  font-ai text-[#001F3F] glow mb-[530px] tracking-[0.35em] mt-32"
             data-speed="500"
           >
-            <h1 className="overflow-visible">Hack-AI-Thon</h1>
+            <h1 className="overflow-visible font-ai">Hack-AI-Thon 2024</h1>
           </div>
           <img
             src="/images1/middlefinal.png"
@@ -78,12 +78,12 @@ const HeroSection = () => {
           />
         </section>
       </div>
-      <div className="hidden max-md:flex h-screen w-screen justify-end bg-black overflow-x-hidden">
+      <div className="hidden max-md:flex h-screen w-screen justify-end bg-[#11161F] overflow-x-hidden">
         <div
-          className="w-full text-center parallax text2 absolute z-[50] text-3xl  font-ai text-[#F8F7FF] glow mt-20 tracking-[0.3em]"
+          className="w-full text-center parallax text2 absolute z-[50] text-3xl  font-ai text-[#F8F7FF] glow mt-20 pb-[600px] tracking-[0.3em]"
           data-speed="1000"
         >
-          <h1 className="overflow-visible">Hack-AI-Thon</h1>
+          <h1 className="overflow-visible font-ai">Hack-AI-Thon 2024</h1>
         </div>
         <img
           className="h-[85vh] w-auto absolute parallax"
