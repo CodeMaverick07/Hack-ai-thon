@@ -1,11 +1,10 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import React, { useRef } from "react";
+
 import FAQ from "./FAQ";
-import Sponsors from "./Sponsors";
+
 import Contact from "./Contact";
-import About from "./About";
-import HeroSection from "./HeroSection";
+import Team from "./Team";
 
 const Layout = () => {
   useGSAP(() => {
@@ -32,7 +31,7 @@ const Layout = () => {
           <Contact />
         </section>
         <section className="h-screen w-screen" id="sponsors">
-          <Sponsors />
+          <Team />
         </section>
       </div>
     </div>

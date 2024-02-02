@@ -53,10 +53,10 @@ const HeroSection = () => {
             data-speed="20"
           />
           <div
-            className="parallax text absolute z-[15] text-8xl  font-ai text-[#F8F7FF] glow mb-[490px] tracking-[0.4em]"
+            className="parallax text absolute z-[15] text-8xl  font-ai text-[#F8F7FF] glow mb-[470px] tracking-[0.4em]"
             data-speed="500"
           >
-            <h1>Hack-AI-Thon</h1>
+            <h1 className="overflow-visible">Hack-AI-Thon</h1>
           </div>
           <img
             src="/images1/middlefinal.png"
@@ -83,7 +83,7 @@ const HeroSection = () => {
           className="w-full text-center parallax text2 absolute z-[50] text-3xl  font-ai text-[#F8F7FF] glow mt-20 tracking-[0.3em]"
           data-speed="1000"
         >
-          <h1>Hack-AI-Thon</h1>
+          <h1 className="overflow-visible">Hack-AI-Thon</h1>
         </div>
         <img
           className="h-[85vh] w-auto absolute parallax"
