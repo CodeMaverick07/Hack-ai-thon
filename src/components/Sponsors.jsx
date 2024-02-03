@@ -1,4 +1,10 @@
-import { FaLinkedin } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaFacebook,
+  FaWhatsapp,
+  FaTwitter,
+  FaInstagram,
+} from "react-icons/fa";
 
 function Sponsors() {
   return (
@@ -6,7 +12,7 @@ function Sponsors() {
       <div className="h-screen w-screen bg-[#11161F] shadow-2xl">
         <div className="mx-auto max-w-7xl  sm:px-6 lg:px-8 pt-32">
           <div className="max-md:h-screen relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
-            <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-wider text-white sm:text-6xl font-ai glow">
+            <h2 className="mx-auto max-w-2xl text-4xl text-white font-ai glow">
               SPONSORS
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
@@ -16,26 +22,26 @@ function Sponsors() {
             </p>
             <div className="mx-auto mt-20 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5">
               <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center items-center gap-1">
-                <FaLinkedin className="text-white text-4xl" />
-                <p className="text-3xl text-white">LinkedIn</p>
+                <FaLinkedin className="text-white text-4xl max-md:text-2xl" />
+                <p className="text-2xl text-white max-md:text-xl">LinkedIn</p>
               </div>
               <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center items-center gap-1">
-                <FaLinkedin className="text-white text-4xl" />
-                <p className="text-3xl text-white">LinkedIn</p>
+                <FaTwitter className="text-white text-4xl max-md:text-2xl" />
+                <p className="text-2xl text-white max-md:text-xl">Twitter</p>
               </div>
               <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center items-center gap-1">
-                <FaLinkedin className="text-white text-4xl" />
-                <p className="text-3xl text-white">LinkedIn</p>
+                <FaInstagram className="text-white text-4xl max-md:text-2xl" />
+                <p className="text-2xl text-white max-md:text-xl">Instagram</p>
               </div>
 
               <div className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1 flex justify-center items-center gap-1">
-                <FaLinkedin className="text-white text-4xl" />
-                <p className="text-3xl text-white">LinkedIn</p>
+                <FaWhatsapp className="text-white text-4xl max-md:text-2xl" />
+                <p className="text-2xl text-white max-md:text-xl">Whatsapp</p>
               </div>
 
               <div className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1 flex justify-center items-center gap-1">
-                <FaLinkedin className="text-white text-4xl" />
-                <p className="text-3xl text-white">LinkedIn</p>
+                <FaFacebook className="text-white text-4xl max-md:text-2xl" />
+                <p className="text-2xl text-white max-md:text-xl">FaceBook</p>
               </div>
             </div>
             <div
