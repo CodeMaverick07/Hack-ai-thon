@@ -8,7 +8,6 @@ import Footer from "./components/Footer";
 import Prizes from "./components/Prizes";
 import Shorlist from "./components/Shorlist";
 import TimeLine from "./components/TimeLine";
-import Lec from "./lib/simple_centered";
 
 function App() {
   return (
