@@ -83,7 +83,7 @@ const HeroSection = () => {
       <div className="hidden max-md:flex h-screen w-screen justify-end bg-[#11161F] overflow-x-hidden">
         <div
           className="w-full text-center parallax text2 absolute z-[50] text-3xl  font-ai text-[#F8F7FF] glow mt-20 pb-[600px] tracking-[0.3em]"
-          data-speed="80"
+          data-speed="70"
         >
           <h1 className="overflow-visible font-ai">Hack-AI-Thon 2024</h1>
         </div>
