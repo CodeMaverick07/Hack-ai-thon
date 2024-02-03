@@ -1,7 +1,7 @@
 function TimeLine() {
   return (
-    <div className="bg-[#0D1119]">
-      <h1 className="text-white text-6xl text-center font-ai pt-10 tracking-widest glow">
+    <div className="bg-[#0D1119] h-auto pb-32">
+      <h1 className="text-white  text-5xl md:text-6xl text-center font-ai pt-10 tracking-widest glow">
         SCHEDULE
       </h1>
       <div class="max-w-7xl mx-auto w-full h-screen grid grid-cols-9 px-2 pb-20 pt-20">

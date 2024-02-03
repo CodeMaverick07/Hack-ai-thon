@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -13,6 +15,7 @@
     0 0 10px rgba(248, 247, 255, 0.8), 0 0 20px rgba(248, 247, 255, 0.8);
   overflow: visible;
 }
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);

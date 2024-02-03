@@ -9,6 +9,8 @@ module.exports = {
         ai: ["Russo One", "sans-serif", "system-ui"],
         nav: ["Electrolize", "sans-serif"],
         pop: ["Poppins", "sans-serif"],
+        prize: ["Honk", "system-ui"],
+        bungee: ["Bungee", "sans-serif"],
       },
       colors: {
         background: "#C0C0C0",

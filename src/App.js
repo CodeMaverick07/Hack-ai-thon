@@ -7,6 +7,8 @@ import Sponsors from "./components/Sponsors";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout";
 import TimeLine from "./components/TimeLine";
+import Prizes from "./components/Prizes";
+import ShortList from "./components/Shorlisted";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
 
         <About />
         <TimeLine />
+        <Prizes />
+        <ShortList />
         {/* <Layout /> */}
         <Sponsors />
         <Footer />

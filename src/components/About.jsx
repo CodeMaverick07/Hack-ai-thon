@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="bg-[#11161F] mb-20">
-      <h1 className="text-white text-6xl text-center font-ai pt-10 tracking-widest glow">
+      <h1 className="text-white text-5xl sm:text-6xl text-center font-ai pt-10 tracking-widest glow">
         ABOUT
       </h1>
       <div class="flex flex-col md:flex-row rounded-md shadow-2xl shadow-slate-800 border-2 border-transparent p-10 mx-5 md:mx-20 mt-12 ">
@@ -13,7 +13,7 @@ const About = () => {
           />
         </div>
         <div class="md:w-3/4 md:ml-20">
-          <p class="text-[#C0C0C0] mt-2 text-xl font-robo">
+          <p class="text-[#C0C0C0] mt-2 text-md sm:text-xl font-robo">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro odio
             deleniti dolorum at eius, alias vel esse in tempora maiores
             voluptatem, repellat officiis ullam nihil aliquam nemo debitis

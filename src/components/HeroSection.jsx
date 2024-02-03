@@ -53,10 +53,10 @@ const HeroSection = () => {
             data-speed="20"
           />
           <div
-            className="parallax text absolute z-[15] text-[4.6rem]  font-ai text-[#001F3F] glow mb-[530px] tracking-[0.35em] mt-32"
+            className="parallax text absolute z-[15] text-[4.6rem]  font-ai text-[#332941] glow mb-[530px] tracking-[0.35em] mt-32"
             data-speed="500"
           >
-            <h1 className="overflow-visible font-ai">Hack-AI-Thon 2024</h1>
+            <h1 className="overflow-visible font-bungee">Hack-AI-Thon 2024</h1>
           </div>
           <img
             src="/images1/middlefinal.png"

@@ -23,20 +23,20 @@ const Header = () => {
   return (
     <div className="z-[100] fixed w-screen h-auto overflow-visible md:pt-10 md:pr-10">
       <nav className="flex text-2xl gap-10 items-center justify-end text-white p-6 max-md:hidden font-nav">
-        <a href="#about" className="glow">
+        <a href="#about" className="hover:glow">
           About
         </a>
-        <a href="#faq" className="glow">
-          FAQ
+        <a href="#faq" className="hover:glow">
+          Schedule
         </a>
-        <a href="#sponsors" className="glow">
+        <a href="#sponsors" className="hover:glow">
+          Prizes
+        </a>
+        <a href="#contact" className="hover:glow">
+          Shortlisted
+        </a>
+        <a href="#team" className="hover:glow">
           Sponsors
-        </a>
-        <a href="#contact" className="glow">
-          Contact
-        </a>
-        <a href="#team" className="glow">
-          Team
         </a>
       </nav>
       <div className="hidden max-md:flex justify-end p-6 text-3xl">
