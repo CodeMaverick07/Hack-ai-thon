@@ -79,7 +79,7 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <p className="mt-10 text-center text-md leading-5 text-white">
+        <p className="mt-10 text-center text-xl leading-5 text-white">
           From AI-CoLegion and team.
         </p>
       </div>
