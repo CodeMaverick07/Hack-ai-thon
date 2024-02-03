@@ -1,4 +1,4 @@
-const About = () => {
+export default function Example() {
   return (
     <div className="bg-[#11161F]">
       <main className="isolate flex w-screen h-[110vh] max-md:h-auto max-md:flex-col justify-center">
@@ -92,6 +92,4 @@ const About = () => {
       </main>
     </div>
   );
-};
-
-export default About;
+}

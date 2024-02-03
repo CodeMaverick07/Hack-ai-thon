@@ -7,19 +7,19 @@ import Sponsors from "./components/Sponsors";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout";
 import TimeLine from "./components/TimeLine";
+import Lec from "./components/with_image_tiles";
 
 function App() {
   return (
     <>
       <ReactLenis root>
         <Header />
-        <div className="">
-          <HeroSection />
-        </div>
+
+        <HeroSection />
 
         <About />
         <TimeLine />
-        {/* <Layout /> */}
+
         <Sponsors />
         <Footer />
         <Starfield

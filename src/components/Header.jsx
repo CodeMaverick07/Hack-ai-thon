@@ -44,24 +44,24 @@ const Header = () => {
           <SheetTrigger>
             <RiMenu2Fill className=" glow text-[#F8F7FF] cursor-pointer" />
           </SheetTrigger>
-          <SheetContent side="left" className="text-[#F8F7FF]">
+          <SheetContent side="left" className="text-black font-ai">
             <SheetHeader>
               <SheetTitle className="glow text-2xl">Menu</SheetTitle>
               <SheetClose>
                 <nav className="flex flex-col justify-start text-start gap-4 text-xl">
-                  <a href="#about" className="glow">
+                  <a href="#about" className="">
                     About
                   </a>
-                  <a href="#faq" className="glow">
+                  <a href="#faq" className="">
                     FAQ
                   </a>
-                  <a href="#sponsors" className="glow">
+                  <a href="#sponsors" className="">
                     Sponsors
                   </a>
-                  <a href="#contact" className="glow">
+                  <a href="#contact" className="">
                     Contact
                   </a>
-                  <a href="#team" className="glow">
+                  <a href="#team" className="">
                     Team
                   </a>
                 </nav>
