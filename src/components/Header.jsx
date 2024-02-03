@@ -26,16 +26,16 @@ const Header = () => {
         <a href="#about" className="glow">
           About
         </a>
-        <a href="#faq" className="glow">
+        <a href="#prize" className="glow">
           Prizes
         </a>
-        <a href="#sponsors" className="glow">
+        <a href="#shortlist" className="glow">
           ShortList
         </a>
-        <a href="#contact" className="glow">
+        <a href="#schedule" className="glow">
           Schedule
         </a>
-        <a href="#team" className="glow">
+        <a href="#sponsors" className="glow">
           Sponsors
         </a>
       </nav>
@@ -52,16 +52,16 @@ const Header = () => {
                   <a href="#about" className="">
                     About
                   </a>
-                  <a href="#prizes" className="">
+                  <a href="#prize" className="">
                     Prizes
                   </a>
-                  <a href="#sponsors" className="">
+                  <a href="#shortlist" className="">
                     ShortList
                   </a>
-                  <a href="#contact" className="">
+                  <a href="#schedule" className="">
                     Schedule
                   </a>
-                  <a href="#team" className="">
+                  <a href="#sponsors" className="">
                     Sponsors
                   </a>
                 </nav>

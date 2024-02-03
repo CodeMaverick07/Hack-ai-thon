@@ -21,7 +21,7 @@ function TimeLine() {
   ];
   return (
     <>
-      <div className="bg-[#0D1119] max-md:hidden">
+      <div className="bg-[#0D1119] max-md:hidden " id="schedule">
         <h1 className="text-white text-6xl text-center font-ai pt-10 tracking-widest glow">
           SCHEDULE
         </h1>
@@ -82,7 +82,10 @@ function TimeLine() {
         </div>
       </div>
       {/* for phone */}
-      <div className="bg-[#11161F] max-md:flex hidden max-md:mt-10">
+      <div
+        className="bg-[#11161F] max-md:flex hidden max-md:mt-10"
+        id="schedule"
+      >
         <main className="isolate">
           <h1 className="text-white text-3xl text-center pb-5 font-ai glow">
             Shedule

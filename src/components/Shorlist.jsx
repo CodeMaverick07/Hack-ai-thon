@@ -23,7 +23,10 @@ const Teams = [
 
 function ShortList() {
   return (
-    <div className="flex justify-center flex-col pb-20 bg-[#0D1119]">
+    <div
+      className="flex justify-center flex-col pb-20 bg-[#0D1119]"
+      id="shortlist"
+    >
       <h1 className="text-white text-3xl sm:text-6xl text-center font-ai pt-10 tracking-widest glow">
         SHORTLISTED TEAMS
       </h1>
