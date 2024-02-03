@@ -11,7 +11,7 @@ const About = () => {
           <div className="overflow-hidden">
             <div className="mx-auto max-w-7xl px-6 pb-20 sm:pt-10 lg:px-8 lg:pt-10">
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-                <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
+                <div className="mt-14 flex justify-end gap-3 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                   <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                     <div className="relative">
                       <img
@@ -63,7 +63,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-3xl text-gray-200 font-robo text-md px-4 pt-10 shadow-xl max-md:pt-0">
+        <div className="max-w-3xl text-gray-200 font-robo text-md px-4 pt-10 max-md:pt-0">
           <h1 className="glow text-white text-5xl tracking-[0.2em] font-robo py-2 max-md:hidden">
             About
           </h1>

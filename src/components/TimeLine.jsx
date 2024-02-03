@@ -82,7 +82,7 @@ function TimeLine() {
         </div>
       </div>
       {/* for phone */}
-      <div className="bg-[#11161F] max-md:flex hidden">
+      <div className="bg-[#11161F] max-md:flex hidden max-md:mt-10">
         <main className="isolate">
           <h1 className="text-white text-3xl text-center pb-5 font-ai glow">
             Shedule
