@@ -65,7 +65,7 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="bg-black">
+    <footer className="bg-black  max-md:h-[50vh] max-md:mt-10">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
         <div className="mt-10 flex justify-center space-x-10">
           {social.map((item) => (
