@@ -40,7 +40,7 @@ const About = () => {
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                   </div>
-                  <div className="w-44 max-md:w-[160px] flex-none space-y-8 pt-32 sm:pt-0">
+                  <div className="w-44 max-md:w-[155px] flex-none space-y-8 pt-32 sm:pt-0">
                     <div className="relative">
                       <img
                         src="/about_photo/photo4.webp"
