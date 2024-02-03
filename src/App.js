@@ -5,9 +5,8 @@ import HeroSection from "./components/HeroSection";
 import { ReactLenis } from "@studio-freight/react-lenis";
 import Sponsors from "./components/Sponsors";
 import Footer from "./components/Footer";
-import Layout from "./components/Layout";
+
 import TimeLine from "./components/TimeLine";
-import Lec from "./components/with_image_tiles";
 
 function App() {
   return (
