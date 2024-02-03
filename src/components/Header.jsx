@@ -27,16 +27,16 @@ const Header = () => {
           About
         </a>
         <a href="#faq" className="glow">
-          FAQ
+          Prizes
         </a>
         <a href="#sponsors" className="glow">
-          Sponsors
+          ShortList
         </a>
         <a href="#contact" className="glow">
-          Contact
+          Schedule
         </a>
         <a href="#team" className="glow">
-          Team
+          Sponsors
         </a>
       </nav>
       <div className="hidden max-md:flex justify-end p-6 text-3xl">
@@ -52,17 +52,17 @@ const Header = () => {
                   <a href="#about" className="">
                     About
                   </a>
-                  <a href="#faq" className="">
-                    FAQ
+                  <a href="#prizes" className="">
+                    Prizes
                   </a>
                   <a href="#sponsors" className="">
-                    Sponsors
+                    ShortList
                   </a>
                   <a href="#contact" className="">
-                    Contact
+                    Schedule
                   </a>
                   <a href="#team" className="">
-                    Team
+                    Sponsors
                   </a>
                 </nav>
               </SheetClose>

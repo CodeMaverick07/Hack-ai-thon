@@ -9,9 +9,9 @@ import {
 function Sponsors() {
   return (
     <>
-      <div className="h-screen max-md:h-[80vh] w-screen bg-[#14181f]">
-        <div className="mx-auto max-w-7xl  sm:px-6 lg:px-8 pt-32">
-          <div className="max-md:h-screen relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
+      <div className="h-screen max-md:h-[85vh] w-screen bg-[#14181f]">
+        <div className="mx-auto max-w-7xl  sm:px-6 lg:px-8 pt-28">
+          <div className="max-md:h-[85vh] relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
             <h2 className="mx-auto max-w-2xl text-4xl text-white font-ai glow">
               SPONSORS
             </h2>
