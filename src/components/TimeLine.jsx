@@ -18,6 +18,18 @@ function TimeLine() {
         "Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.",
       date: "11th feb",
     },
+    {
+      name: "Results",
+      description:
+        "Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.",
+      date: "11th feb",
+    },
+    {
+      name: "Results",
+      description:
+        "Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.",
+      date: "11th feb",
+    },
   ];
   return (
     <>
@@ -25,7 +37,7 @@ function TimeLine() {
         <h1 className="text-white text-6xl text-center font-ai pt-10 tracking-widest glow">
           SCHEDULE
         </h1>
-        <div class="max-w-7xl mx-auto w-full h-screen grid grid-cols-9 px-2 pb-20 pt-20">
+        <div class="max-w-7xl mx-auto w-full grid grid-cols-9 px-2 pb-20 pt-20">
           <div class="col-span-4 w-full h-fit">
             <div class="w-full h-full bg-transparent shadow-2xl shadow-slate-800 rounded-md p-2 py-5 md:pl-4">
               <h1 class="text-white text-3xl  py-2 font-nav font-semibold tracking-widest">
@@ -57,7 +69,7 @@ function TimeLine() {
                 {timeline[1].name}
               </h1>
               <p class="text-[#C0C0C0] sm:text-sm text-xs font-robo">
-                {timeline[0].description}
+                {timeline[1].description}
               </p>
             </div>
           </div>
@@ -68,7 +80,7 @@ function TimeLine() {
                 {timeline[2].name}
               </h1>
               <p class="text-[#C0C0C0] sm:text-sm text-xs font-robo">
-                {timeline[0].description}
+                {timeline[2].description}
               </p>
             </div>
           </div>
@@ -78,6 +90,46 @@ function TimeLine() {
               3
             </div>
           </div>
+          <div class="col-span-4 w-full h-full"></div>
+          <div class="col-span-4 w-full h-full ">
+            <div class="w-full h-full  rounded-md p-2 md:pl-4"></div>
+          </div>
+
+          <div class="relative col-span-1 w-full h-full flex justify-center items-center">
+            <div class="h-full w-1 bg-slate-800 shadow-xl shadow-gray-600"></div>
+            <div class="absolute w-6 h-6 rounded-full bg-slate-800 z-10 text-white text-center shadow-lg shadow-slate-800 font-ai">
+              4
+            </div>
+          </div>
+          <div class="col-span-4 w-full h-full ">
+            <div class="w-full h-full bg-transparent shadow-2xl shadow-slate-800 rounded-md p-2 md:pl-4">
+              <h1 class="text-white text-3xl py-2 font-nav font-semibold tracking-widest">
+                {timeline[3].name}
+              </h1>
+              <p class="text-[#C0C0C0] sm:text-sm text-xs font-robo">
+                {timeline[3].description}
+              </p>
+            </div>
+          </div>
+          <div class="col-span-4 w-full h-full"></div>
+          <div class="col-span-4 w-full h-full"></div>
+          <div class="col-span-4 w-full h-full ">
+            <div class="w-full h-full bg-transparent shadow-2xl shadow-slate-800 rounded-md p-2 md:pl-4">
+              <h1 class="text-white text-3xl  py-2 font-nav font-semibold tracking-widest">
+                {timeline[4].name}
+              </h1>
+              <p class="text-[#C0C0C0] sm:text-sm text-xs font-robo">
+                {timeline[4].description}
+              </p>
+            </div>
+          </div>
+          <div class="relative col-span-1 w-full h-full flex justify-center items-center">
+            <div class="h-full w-1 bg-slate-800 shadow-xl shadow-gray-600"></div>
+            <div class="absolute w-6 h-6 rounded-full bg-slate-800 z-10 text-white text-center shadow-lg shadow-slate-800 font-ai">
+              5
+            </div>
+          </div>
+
           <div class="col-span-4 w-full h-full"></div>
         </div>
       </div>

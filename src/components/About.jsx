@@ -17,7 +17,7 @@ const About = () => {
                       <img
                         src="/about_photo/photo1.webp"
                         alt=""
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        className="aspect-[2/3] max-md:hidden w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
@@ -68,25 +68,32 @@ const About = () => {
             About
           </h1>
           <p className="pt-10 max-md:pt-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magni
-            quo repudiandae similique quisquam cum fugit, officiis accusamus
-            voluptatibus dolor cupiditate repellat quidem, cumque in reiciendis
-            deserunt, maiores nesciunt? Amet ratione delectus beatae ut. Atque
-            vero, odit illo dolorem minus voluptate voluptatem, necessitatibus
-            qui possimus, id quas. Officiis cumque in officia temporibus, eius
-            natus vel vero expedita doloribus quos voluptatum esse veritatis.
-            Suscipit pariatur quisquam eius voluptatibus? Neque ratione quasi
-            odit iste quisquam exercitationem, autem numquam vero minima.
-            Doloremque, dolore. Deserunt labore, architecto totam saepe eius
-            minus itaque, inventore pariatur deleniti fuga rerum, ad cupiditate
-            blanditiis quas laborum dicta voluptate eos sunt alias. Aspernatur
-            culpa officia quod itaque temporibus adipisci magnam asperiores
-            sequi ipsa porro amet magni illum, quis minima odio praesentium
-            mollitia. Nobis ipsa officia consequatur voluptate ex et nemo enim,
-            explicabo vel dolore provident quas nulla nisi! Veniam voluptatibus
-            consectetur non deleniti quia alias dolorum? Corporis sequi nemo
-            quaerat accusamus. Quidem quis, id sed iste explicabo doloremque
-            suscipit et cumque ducimus vero voluptatibus, recusandae nobis
+            Welcome to AI-Collegion, the premier council representing the
+            vibrant community of students from the Department of Artificial
+            Intelligence and Data Science at VESIT. Our council is dedicated to
+            fostering innovation, collaboration, and excellence within our
+            department and beyond.
+            <br />
+            <p className="glow text-xl pt-4">Our Mission</p>
+            <br />
+            At AI-Collegion, our mission is to create a dynamic platform where
+            students passionate about artificial intelligence and data science
+            can come together to learn, grow, and make a meaningful impact.
+            <br />
+            <p className=" text-md">1]Promote Learning:</p>
+            Provide opportunities for students to expand their knowledge and
+            skills in AI and DS through workshops, seminars, and hands-on
+            projects.
+            <br />
+            <p className="text-md">2]Foster Collaboration:</p>
+            Encourage collaboration and teamwork among students, faculty, and
+            industry professionals to tackle real-world challenges using AI and
+            DS technologies.
+            <br />
+            <p className="text-md"> 3]Inspire Innovation:</p>
+            Cultivate a culture of innovation and creativity by supporting
+            groundbreaking research, entrepreneurial endeavors, and
+            interdisciplinary projects.
           </p>
         </div>
       </main>
