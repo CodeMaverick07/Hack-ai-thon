@@ -11,11 +11,11 @@ const About = () => {
           <div className="overflow-hidden">
             <div className="mx-auto max-w-7xl px-6 pb-20 sm:pt-10 lg:px-8 lg:pt-10">
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-                <div className="mt-14 flex justify-end gap-3 sm:-mt-44 sm:justify-start sm:pl-[90px] lg:mt-0 lg:pl-0">
+                <div className="mt-14 flex justify-end gap-3 sm:-mt-44 sm:justify-center sm:pl-[90px] lg:mt-0 lg:pl-0">
                   <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                     <div className="relative">
                       <img
-                        src="/about_photo/photo1.webp"
+                        src="/about_photo/general.jpg"
                         alt=""
                         className="aspect-[2/3] max-md:hidden w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -25,7 +25,7 @@ const About = () => {
                   <div className="mr-auto w-44 max-md:w-[160px] flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                     <div className="relative">
                       <img
-                        src="/about_photo/photo2.webp"
+                        src="/about_photo/team.jpg"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -33,7 +33,7 @@ const About = () => {
                     </div>
                     <div className="relative">
                       <img
-                        src="/about_photo/photo3.webp"
+                        src="/about_photo/winners.jpg"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -43,7 +43,7 @@ const About = () => {
                   <div className="w-44 max-md:w-[155px] flex-none space-y-8 pt-32 sm:pt-0">
                     <div className="relative">
                       <img
-                        src="/about_photo/photo4.webp"
+                        src="/about_photo/winners_2.jpg"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -51,7 +51,7 @@ const About = () => {
                     </div>
                     <div className="relative">
                       <img
-                        src="/about_photo/photo5.webp"
+                        src="/about_photo/1.jpg"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
