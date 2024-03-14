@@ -9,6 +9,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "./Sheet";
+import { FaArrowRight } from "react-icons/fa";
 
 const Header = () => {
   useGSAP(() => {
@@ -39,7 +40,7 @@ const Header = () => {
           Sponsors
         </a>
       </nav>
-      <div className="hidden max-md:flex justify-end p-6 text-3xl">
+      <div className="hidden max-md:flex justify-between p-6 text-3xl">
         <Sheet>
           <SheetTrigger>
             <RiMenu2Fill className=" glow text-[#F8F7FF] cursor-pointer" />
@@ -69,6 +70,11 @@ const Header = () => {
             </SheetHeader>
           </SheetContent>
         </Sheet>
+        <button className="font-ai text-black text-base bg-yellow-400 border border-black p-1 rounded-lg hover:scale-110">
+          <div className="flex justify-center items-center gap-1">
+            <span>Apply</span> <FaArrowRight />
+          </div>
+        </button>
       </div>
     </div>
   );

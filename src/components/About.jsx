@@ -25,7 +25,7 @@ const About = () => {
                   <div className="mr-auto w-44 max-md:w-[160px] flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                     <div className="relative">
                       <img
-                        src="/about_photo/team.jpg"
+                        src="/about_photo/2.jpg"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
