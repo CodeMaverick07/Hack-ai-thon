@@ -23,23 +23,34 @@ const Header = () => {
   });
   return (
     <div className="z-[100] fixed w-screen h-auto overflow-visible md:pt-10 md:pr-10">
-      <nav className="flex text-2xl gap-10 items-center justify-end text-white p-6 max-md:hidden font-nav">
-        <a href="#about" className="glow">
-          About
+      <div className="flex justify-between items-center mx-10 max-md:hidden">
+        <a href="#hero">
+          <img
+            src="/logo_trans.png"
+            alt="logo"
+            className="w-16 h-16 mt-4 cursor-pointer"
+          />
         </a>
-        <a href="#prize" className="glow">
-          Prizes
-        </a>
-        <a href="#shortlist" className="glow">
-          ShortList
-        </a>
-        <a href="#schedule" className="glow">
-          Schedule
-        </a>
-        <a href="#sponsors" className="glow">
-          Sponsors
-        </a>
-      </nav>
+
+        <nav className="flex text-2xl gap-10 items-center justify-end text-white py-6 font-nav">
+          <a href="#about" className="glow">
+            About
+          </a>
+          <a href="#prize" className="glow">
+            Prizes
+          </a>
+          <a href="#shortlist" className="glow">
+            ShortList
+          </a>
+          <a href="#schedule" className="glow">
+            Schedule
+          </a>
+          <a href="#sponsors" className="glow">
+            Sponsors
+          </a>
+        </nav>
+      </div>
+
       <div className="hidden max-md:flex justify-between p-6 text-3xl">
         <Sheet>
           <SheetTrigger>
