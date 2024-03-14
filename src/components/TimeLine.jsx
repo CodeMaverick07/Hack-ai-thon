@@ -1,34 +1,32 @@
 function TimeLine() {
   const timeline = [
     {
-      name: "Registrtion",
-      description:
-        "Nihil aut nam. Dignissimos a pariatur et quos omnis. Aspernatur asperiores et dolorem dolorem optio voluptate repudiandae.",
-      date: "9th feb",
+      name: "Inauguration",
+      description: "The inauguration will be held on 23rd March at 4 PM.",
+      date: "23rd march 4 PM",
     },
     {
-      name: "Hack-ai-thon",
+      name: "Mentoring Session",
       description:
-        "Provident quia ut esse. Vero vel eos repudiandae aspernatur. Cumque minima impedit sapiente a architecto nihil.",
-      date: "10th feb",
+        "A mentoring session will take place on 23rd March at 7 PM. If you have any issues, you can ask our experts for assistance",
+      date: "23rd march 7 PM",
     },
     {
-      name: "Results",
+      name: "1st Round Submission",
       description:
-        "Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.",
-      date: "11th feb",
+        "The first round submission will be held on 24th March at 12 AM.",
+      date: "24th march 12 AM",
     },
     {
-      name: "Results",
+      name: "2nd Round Submission",
       description:
-        "Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.",
-      date: "11th feb",
+        "The second round submission will be held on 24th March at 10 AM, and teams will be shortlisted.",
+      date: "24th march 10 AM",
     },
     {
-      name: "Results",
-      description:
-        "Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.",
-      date: "11th feb",
+      name: "Final Submission",
+      description: "The final submission will be held on 24th March at 3 PM.",
+      date: "24th march 3 PM",
     },
   ];
   return (

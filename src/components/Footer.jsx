@@ -69,7 +69,7 @@ const Footer = () => {
     <footer className="bg-black  max-md:h-[50vh] flex justify-center items-center">
       <div className="mx-auto max-w-7xl flex flex-col justify-center items-center overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
         <a href="#hero">
-          <button className="font-ai text-black text-2xl max-md:text-base max-md:mt-12 p-3 bg-yellow-400 border border-black rounded-lg hover:scale-110">
+          <button className="font-ai text-black text-2xl max-md:text-base max-md:mt-20 p-3 bg-yellow-400 border border-black rounded-lg hover:scale-110">
             <div className="flex justify-center items-center gap-1">
               <span>Apply</span> <FaArrowRight />
             </div>

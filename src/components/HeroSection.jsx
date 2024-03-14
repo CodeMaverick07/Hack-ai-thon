@@ -125,7 +125,7 @@ const HeroSection = () => {
           data-speed="70"
         >
           <div className="flex flex-col justify-center items-center">
-            <img src="/logo_trans.png" alt="logo" className="w-14 h-14" />
+            <img src="/logo_trans.png" alt="logo" className="w-16 h-16" />
 
             <h1 className="overflow-visible font-ai">Hack-AI-Thon 2024</h1>
           </div>
