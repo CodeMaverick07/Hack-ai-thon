@@ -3,9 +3,20 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import { useGSAP } from "@gsap/react";
 import { useEffect } from "react";
+import Timer from "./Timer";
 gsap.registerPlugin(ScrollTrigger);
 
 const HeroSection = () => {
+  const calculateTimeDifference = () => {
+    const now = new Date();
+    const targetDate = new Date(now.getFullYear(), 2, 23); // March is month 2 (0-indexed)
+    if (now > targetDate) {
+      targetDate.setFullYear(now.getFullYear() + 1); // If already passed, set to next year
+    }
+    const timeDifference = targetDate.getTime() - now.getTime();
+    return timeDifference;
+  };
+  const timeDuration = calculateTimeDifference();
   useGSAP(() => {
     gsap.from(".text", {
       y: 400,
@@ -75,6 +86,9 @@ const HeroSection = () => {
               Hack-AI-Thon <br /> 2024
             </h1>
           </div>
+          <div className="absolute z-[40] mt-[300px]">
+            <Timer timeDuration={timeDuration} />
+          </div>
           <img
             src="/images1/middlefinal.png"
             alt=""
@@ -105,6 +119,9 @@ const HeroSection = () => {
 
             <h1 className="overflow-visible font-ai">Hack-AI-Thon 2024</h1>
           </div>
+        </div>
+        <div className="absolute z-[40] bottom-30">
+          <Timer timeDuration={timeDuration} />
         </div>
         <img
           className="h-[85vh] w-auto absolute parallax"
