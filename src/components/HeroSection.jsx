@@ -1,12 +1,21 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import React from "react";
 import { useGSAP } from "@gsap/react";
-import { useEffect } from "react";
 import Timer from "./Timer";
 gsap.registerPlugin(ScrollTrigger);
 
 const HeroSection = () => {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   const calculateTimeDifference = () => {
     const now = new Date();
     const targetDate = new Date(now.getFullYear(), 2, 23); // March is month 2 (0-indexed)
@@ -51,16 +60,6 @@ const HeroSection = () => {
       });
     });
   });
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://apply.devfolio.co/v2/sdk.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
 
   return (
     <>
@@ -79,20 +78,23 @@ const HeroSection = () => {
             data-speed="10"
           />
           <div
-            className="parallax text absolute z-[15] text-5xl font-ai text-[#F8F7FF] glow mb-[420px] tracking-[0.2em]"
-            data-speed="400"
+            className="parallax text absolute z-[15] text-7xl font-ai text-[#F8F7FF] glow mb-[420px] tracking-[0.4em]"
+            data-speed="120"
           >
             <h1 className="overflow-visible font-ai text-center">
-              HACK-AI-THON 2.0 | AI CoLegion
+              Hack-AI-Thon <br /> 2024
             </h1>
           </div>
-          <div className="absolute z-[100] flex flex-col justify-center text-2xl font-robo font-bold text-white glow gap-3 items-center cursor-pointer">
+          <a
+            href="/"
+            className="absolute z-[100] flex flex-col justify-center text-2xl font-robo font-bold text-white glow gap-3 items-center cursor-pointer"
+          >
             <img
               className=" h-[44px] rounded-md "
               src="/applyWithDev.png"
               alt="DEVFOLIO LOGO"
             />
-          </div>
+          </a>
 
           <div className="absolute z-[40] mt-[250px]">
             <Timer timeDuration={timeDuration} />
@@ -119,19 +121,19 @@ const HeroSection = () => {
       </div>
       <div className="hidden max-md:flex h-screen w-screen justify-end bg-[#11161F] overflow-x-hidden">
         <div
-          className="w-full text-center parallax text2 absolute z-[50] text-2xl  font-ai text-[#F8F7FF] glow mt-20 pb-[600px] tracking-[0.2em]"
+          className="w-full text-center parallax text2 absolute z-[50] text-3xl  font-ai text-[#F8F7FF] glow mt-20 pb-[600px] tracking-[0.3em]"
           data-speed="70"
         >
           <div className="flex flex-col justify-center items-center">
-            <img src="/logo_trans.png" alt="logo" className="w-16 h-16" />
+            <img src="/logo_trans.png" alt="logo" className="w-14 h-14" />
 
-            <h1 className="overflow-visible font-ai">
-              HACK-AI-THON 2.0 <br />
-              AI CoLegion
-            </h1>
+            <h1 className="overflow-visible font-ai">Hack-AI-Thon 2024</h1>
           </div>
         </div>
-        <div className="w-full text-center absolute z-[100] b bottom-[12rem] cursor-pointer">
+        <a
+          href="/"
+          className="w-full text-center absolute z-[100] b bottom-[12rem] cursor-pointer"
+        >
           <div className="flex flex-col justify-center text-white glow text-xl gap-2 items-center">
             <img
               className=" h-[44px] rounded-md"
@@ -139,7 +141,8 @@ const HeroSection = () => {
               alt="DEVFOLIO LOGO"
             />
           </div>
-        </div>
+        </a>
+
         <div className="absolute z-[40] bottom-24">
           <Timer timeDuration={timeDuration} />
         </div>

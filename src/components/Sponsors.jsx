@@ -13,7 +13,7 @@ function Sponsors() {
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
               Thank you to our generous sponsors for their invaluable support in
               making <span className=" text-white font-bold">HACK-AI-THON</span>{" "}
-              a success!
+              a reality.
             </p>
             <div className="mx-auto mt-20 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5">
               <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex flex-col justify-center items-center gap-1">

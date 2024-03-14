@@ -6,7 +6,6 @@ import { ReactLenis } from "@studio-freight/react-lenis";
 import Sponsors from "./components/Sponsors";
 import Footer from "./components/Footer";
 import Prizes from "./components/Prizes";
-import Shorlist from "./components/Shorlist";
 import TimeLine from "./components/TimeLine";
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
         <HeroSection />
         <About />
         <Prizes />
-        <Shorlist />
+
         <TimeLine />
         <Sponsors />
         <Footer />
