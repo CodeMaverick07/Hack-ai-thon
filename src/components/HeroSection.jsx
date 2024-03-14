@@ -86,7 +86,7 @@ const HeroSection = () => {
               Hack-AI-Thon <br /> 2024
             </h1>
           </div>
-          <div className="absolute z-[100] flex flex-col justify-center text-2xl font-robo font-bold text-white glow gap-3 items-center">
+          <div className="absolute z-[100] flex flex-col justify-center text-2xl font-robo font-bold text-white glow gap-3 items-center cursor-pointer">
             <p>Apply with devfolio</p>
 
             <img
@@ -130,7 +130,7 @@ const HeroSection = () => {
             <h1 className="overflow-visible font-ai">Hack-AI-Thon 2024</h1>
           </div>
         </div>
-        <div className="w-full text-center absolute z-[100] b bottom-[12rem]">
+        <div className="w-full text-center absolute z-[100] b bottom-[12rem] cursor-pointer">
           <div className="flex flex-col justify-center text-white glow text-xl gap-2 items-center">
             <p>Apply with devfolio</p>
 
