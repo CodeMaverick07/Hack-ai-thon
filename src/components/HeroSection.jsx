@@ -1,6 +1,5 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { FaArrowRight } from "react-icons/fa";
 
 import { useGSAP } from "@gsap/react";
 import { useEffect } from "react";
@@ -94,28 +93,6 @@ const HeroSection = () => {
             alt=""
             className="absolute z-[70] mb-12"
           />
-          <div
-            className="parallax text3 absolute z-[100] text-3xl font-ai text-[#F8F7FF] mt-[100px] tracking-[0.1em]"
-            data-speed=""
-          >
-            <div className="overflow-visible font-ai text-center">
-              <p> apply with devfolio </p>
-              {/* <button className="font-ai text-black text-xl bg-yellow-400 border border-black p-1 rounded-lg hover:scale-110">
-                <div className="flex justify-center items-center gap-1">
-                  <span>Apply</span> <FaArrowRight />
-                </div>
-              </button> */}
-              <div
-                className="apply-button h-12 w-20"
-                data-hackathon-slug="YOUR-HACKATHON-SLUG"
-                data-button-theme="light"
-              >
-                <div className="flex justify-center items-center gap-1">
-                  <span>Apply</span> <FaArrowRight />
-                </div>{" "}
-              </div>
-            </div>
-          </div>
         </section>
       </div>
       <div className="hidden max-md:flex h-screen w-screen justify-end bg-[#11161F] overflow-x-hidden">
