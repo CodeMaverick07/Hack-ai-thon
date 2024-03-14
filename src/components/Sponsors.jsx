@@ -24,27 +24,28 @@ function Sponsors() {
               a success!
             </p>
             <div className="mx-auto mt-20 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5">
-              <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center items-center gap-1">
-                <FaLinkedin className="text-white text-4xl max-md:text-2xl" />
-                <p className="text-2xl text-white max-md:text-xl">LinkedIn</p>
+              <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex flex-col justify-center items-center gap-1">
+                <img src="/sponsors/GMC_Logo.png" alt="GMC" className="h-28" />
               </div>
-              <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center items-center gap-1">
-                <FaTwitter className="text-white text-4xl max-md:text-2xl" />
-                <p className="text-2xl text-white max-md:text-xl">Twitter</p>
+              <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center items-center flex-col gap-1">
+                <img src="/sponsors/wolfram.png" className="" alt="" />
               </div>
-              <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center items-center gap-1">
-                <FaInstagram className="text-white text-4xl max-md:text-2xl" />
-                <p className="text-2xl text-white max-md:text-xl">Instagram</p>
+              <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center flex-col items-center gap-1">
+                <img src="/sponsors/devfolio.png" className="" alt="" />
               </div>
-
-              <div className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1 flex justify-center items-center gap-1">
-                <FaWhatsapp className="text-white text-4xl max-md:text-2xl" />
-                <p className="text-2xl text-white max-md:text-xl">Whatsapp</p>
+              <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center flex-col items-center gap-1">
+                <img
+                  src="/sponsors/elastic.png"
+                  className="h-28 rounded-md"
+                  alt=""
+                />
               </div>
-
-              <div className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1 flex justify-center items-center gap-1">
-                <FaFacebook className="text-white text-4xl max-md:text-2xl" />
-                <p className="text-2xl text-white max-md:text-xl">FaceBook</p>
+              <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center flex-col items-center gap-1">
+                <img
+                  src="/sponsors/collegepond.png"
+                  className="h-28 rounded-md"
+                  alt=""
+                />
               </div>
             </div>
             <div
