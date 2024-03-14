@@ -38,7 +38,11 @@ function Sponsors() {
                 />
               </div>
               <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center items-center flex-col gap-1">
-                <img src="/sponsors/wolfram.png" className="" alt="" />
+                <img
+                  src="/sponsors/Wolfram.jpg"
+                  className="rounded-md"
+                  alt=""
+                />
               </div>
             </div>
             <div
