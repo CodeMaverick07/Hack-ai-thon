@@ -17,7 +17,11 @@ function Sponsors() {
             </p>
             <div className="mx-auto mt-20 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5">
               <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex flex-col justify-center items-center gap-1">
-                <img src="/sponsors/GMC_Logo.png" alt="GMC" className="h-28" />
+                <img
+                  src="/sponsors/GMC_Logo.jpg"
+                  alt="GMC"
+                  className="h-28 rounded-md"
+                />
               </div>
 
               <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center flex-col items-center gap-1">
@@ -40,7 +44,7 @@ function Sponsors() {
               <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center items-center flex-col gap-1">
                 <img
                   src="/sponsors/Wolfram.jpg"
-                  className="rounded-md"
+                  className="rounded-md h-28"
                   alt=""
                 />
               </div>
