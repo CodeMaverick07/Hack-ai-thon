@@ -1,11 +1,3 @@
-import {
-  FaLinkedin,
-  FaFacebook,
-  FaWhatsapp,
-  FaTwitter,
-  FaInstagram,
-} from "react-icons/fa";
-
 function Sponsors() {
   return (
     <>
@@ -27,9 +19,7 @@ function Sponsors() {
               <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex flex-col justify-center items-center gap-1">
                 <img src="/sponsors/GMC_Logo.png" alt="GMC" className="h-28" />
               </div>
-              <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center items-center flex-col gap-1">
-                <img src="/sponsors/wolfram.png" className="" alt="" />
-              </div>
+
               <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center flex-col items-center gap-1">
                 <img src="/sponsors/devfolio.png" className="" alt="" />
               </div>
@@ -46,6 +36,9 @@ function Sponsors() {
                   className="h-28 rounded-md"
                   alt=""
                 />
+              </div>
+              <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center items-center flex-col gap-1">
+                <img src="/sponsors/wolfram.png" className="" alt="" />
               </div>
             </div>
             <div
