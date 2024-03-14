@@ -86,7 +86,17 @@ const HeroSection = () => {
               Hack-AI-Thon <br /> 2024
             </h1>
           </div>
-          <div className="absolute z-[40] mt-[300px]">
+          <div className="absolute z-[100] flex flex-col justify-center text-2xl font-robo font-bold text-white glow gap-3 items-center">
+            <p>Apply with devfolio</p>
+
+            <img
+              className="bg-[#27333F] h-[44px] w-[250px] rounded-md p-1"
+              src="/Devfolio_Logo-White.svg"
+              alt="DEVFOLIO LOGO"
+            />
+          </div>
+
+          <div className="absolute z-[40] mt-[250px]">
             <Timer timeDuration={timeDuration} />
           </div>
           <img
@@ -120,7 +130,18 @@ const HeroSection = () => {
             <h1 className="overflow-visible font-ai">Hack-AI-Thon 2024</h1>
           </div>
         </div>
-        <div className="absolute z-[40]  bottom-32">
+        <div className="w-full text-center absolute z-[100] b bottom-[12rem]">
+          <div className="flex flex-col justify-center text-white glow text-xl gap-2 items-center">
+            <p>Apply with devfolio</p>
+
+            <img
+              className="bg-[#27333F] h-[44px] w-[250px] rounded-md p-1"
+              src="/Devfolio_Logo-White.svg"
+              alt="DEVFOLIO LOGO"
+            />
+          </div>
+        </div>
+        <div className="absolute z-[40] bottom-24">
           <Timer timeDuration={timeDuration} />
         </div>
         <img
