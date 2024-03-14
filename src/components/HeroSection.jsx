@@ -120,7 +120,7 @@ const HeroSection = () => {
             <h1 className="overflow-visible font-ai">Hack-AI-Thon 2024</h1>
           </div>
         </div>
-        <div className="absolute z-[40] bottom-30">
+        <div className="absolute z-[40]  bottom-32">
           <Timer timeDuration={timeDuration} />
         </div>
         <img
