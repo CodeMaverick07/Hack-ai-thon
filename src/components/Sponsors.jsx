@@ -6,7 +6,7 @@ function Sponsors() {
         id="sponsors"
       >
         <div className="mx-auto max-w-7xl  sm:px-6 lg:px-8 pt-28">
-          <div className="max-md:h-[85vh] relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
+          <div className="max-md:h-[85vh] relative overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
             <h2 className="mx-auto max-w-2xl text-4xl text-white font-ai glow">
               SPONSORS
             </h2>
@@ -15,7 +15,7 @@ function Sponsors() {
               making <span className=" text-white font-bold">HACK-AI-THON</span>{" "}
               a reality.
             </p>
-            <div className="mx-auto mt-20 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5">
+            <div className="mx-auto mt-20 flex max-w-lg grid-cols-4 items-center justify-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5">
               <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex flex-col justify-center items-center gap-1">
                 <img
                   src="/sponsors/GMC_Logo.jpg"
@@ -24,23 +24,23 @@ function Sponsors() {
                 />
               </div>
 
-              <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center flex-col items-center gap-1">
+              {/* <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center flex-col items-center gap-1">
                 <img src="/sponsors/devfolio.png" className="" alt="" />
-              </div>
-              <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center flex-col items-center gap-1">
+              </div> */}
+              {/* <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center flex-col items-center gap-1">
                 <img
                   src="/sponsors/elastic.png"
                   className="h-28 rounded-md"
                   alt=""
                 />
-              </div>
-              <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center flex-col items-center gap-1">
+              </div> */}
+              {/* <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center flex-col items-center gap-1">
                 <img
                   src="/sponsors/collegepond.png"
                   className="h-28 rounded-md"
                   alt=""
                 />
-              </div>
+              </div> */}
               <div className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 flex justify-center items-center flex-col gap-1">
                 <img
                   src="/sponsors/Wolfram.jpg"
