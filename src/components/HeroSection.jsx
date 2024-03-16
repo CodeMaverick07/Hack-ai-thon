@@ -63,7 +63,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <div className="-mt-10 main bg-[#11161F] max-md:hidden " id="hero">
+      <div className="-mt-10 main bg-[#11161F] max-md:hidden" id="hero">
         <section className="flex justify-center items-center">
           <img
             src="/images1/bg111.png"
@@ -86,7 +86,7 @@ const HeroSection = () => {
             </h1>
           </div>
           <a
-            href="/"
+            href="https://hack-ai-thon.devfolio.co/overview"
             className="absolute z-[100] flex flex-col justify-center text-2xl font-robo font-bold text-white glow gap-3 items-center cursor-pointer"
           >
             <img
@@ -131,7 +131,7 @@ const HeroSection = () => {
           </div>
         </div>
         <a
-          href="/"
+          href="https://hack-ai-thon.devfolio.co/overview"
           className="w-full text-center absolute z-[100] b bottom-[12rem] cursor-pointer"
         >
           <div className="flex flex-col justify-center text-white glow text-xl gap-2 items-center">

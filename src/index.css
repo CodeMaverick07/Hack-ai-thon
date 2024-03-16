@@ -25,3 +25,6 @@
 .spin {
   animation: spin infinite 150s linear; /* You can adjust the duration and timing function as needed */
 }
+body {
+  overflow: hidden;
+}
