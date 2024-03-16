@@ -28,7 +28,7 @@ const Footer = () => {
     <footer className="bg-black  max-md:h-[50vh] flex justify-center items-center">
       <div className="mx-auto max-w-7xl flex flex-col justify-center items-center overflow-hidden px-6 py-20">
         <div className="mt-10 flex justify-center space-x-10 max-md:space-x-0 max-md:gap-2 items-center">
-          <a href="#hero">
+          <a href="https://hack-ai-thon.devfolio.co/overview">
             <button className="font-ai text-black text-2xl p-3 max-md:text-xl bg-yellow-400 border border-black rounded-lg hover:scale-110">
               <div className="flex justify-center items-center gap-1">
                 <FaArrowRight />

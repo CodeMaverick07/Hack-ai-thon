@@ -81,11 +81,14 @@ const Header = () => {
             </SheetHeader>
           </SheetContent>
         </Sheet>
-        <button className="font-ai text-black text-base bg-yellow-400 border border-black p-1 rounded-lg hover:scale-110">
+        <a
+          href="https://hack-ai-thon.devfolio.co/overview"
+          className="font-ai text-black text-base bg-yellow-400 border border-black p-1 rounded-lg hover:scale-110"
+        >
           <div className="flex justify-center items-center gap-1">
             <span>Apply</span> <FaArrowRight />
           </div>
-        </button>
+        </a>
       </div>
     </div>
   );
