@@ -2,11 +2,11 @@ function Sponsors() {
   return (
     <>
       <div
-        className="h-screen max-md:h-[85vh] w-screen bg-[#14181f]"
+        className="h-screen max-md:h-full w-screen bg-[#14181f]"
         id="sponsors"
       >
         <div className="mx-auto max-w-7xl  sm:px-6 lg:px-8 pt-28">
-          <div className="max-md:h-[85vh] relative overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
+          <div className="max-md:h-full relative overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
             <h2 className="mx-auto max-w-2xl text-4xl text-white font-ai glow">
               SPONSORS
             </h2>
@@ -15,11 +15,32 @@ function Sponsors() {
               making <span className=" text-white font-bold">HACK-AI-THON</span>{" "}
               a reality.
             </p>
-            <div className="flex max-md:flex-col justify-center items-center gap-5 mt-5">
+            <div className="flex max-md:flex-col justify-center items-center gap-10 max-md:gap-5 mt-5">
               <div className="">
                 <img
                   src="/sponsors/GMC_Logo.jpg"
                   alt="GMC"
+                  className="h-28 rounded-md"
+                />
+              </div>
+              <div className="">
+                <img
+                  src="/sponsors/fidato.jpg"
+                  alt="Fidato"
+                  className="h-28 rounded-md"
+                />
+              </div>
+              <div className="">
+                <img
+                  src="/sponsors/elastic.png"
+                  alt="Fidato"
+                  className="h-28 rounded-md"
+                />
+              </div>
+              <div className="">
+                <img
+                  src="/sponsors/devfolio.png"
+                  alt="Fidato"
                   className="h-28 rounded-md"
                 />
               </div>
