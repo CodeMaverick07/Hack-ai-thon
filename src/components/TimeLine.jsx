@@ -31,7 +31,17 @@ function TimeLine() {
   ];
   return (
     <>
-      <div className="bg-[#0D1119] max-md:hidden " id="schedule">
+      <div className="h-screen w-screen">
+        <h1 className="text-white text-6xl max-md:text-4xl text-center font-ai pt-10 tracking-widest glow">
+          SCHEDULE
+        </h1>
+        <div className="flex justify-center h-full items-center">
+          <h1 className="text-white text-4xl max-md:text-2xl text-center font-ai pt-10 tracking-widest glow">
+            Schedule will be displayed here soon
+          </h1>
+        </div>
+      </div>
+      {/* <div className="bg-[#0D1119] max-md:hidden " id="schedule">
         <h1 className="text-white text-6xl text-center font-ai pt-10 tracking-widest glow">
           SCHEDULE
         </h1>
@@ -130,9 +140,9 @@ function TimeLine() {
 
           <div class="col-span-4 w-full h-full"></div>
         </div>
-      </div>
+      </div> */}
       {/* for phone */}
-      <div
+      {/* <div
         className="bg-[#11161F] max-md:flex hidden max-md:mt-10"
         id="schedule"
       >
@@ -169,7 +179,7 @@ function TimeLine() {
             </div>
           </div>
         </main>
-      </div>
+      </div> */}
     </>
   );
 }

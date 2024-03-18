@@ -1,6 +1,6 @@
 function Prizes() {
   return (
-    <div className="h-full" id="prize">
+    <div className="h-full my-20 max-md:my-5" id="prize">
       <h1 className="text-white  text-5xl md:text-6xl text-center font-ai pt-10 tracking-widest glow">
         PRIZES
       </h1>
