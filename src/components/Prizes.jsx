@@ -43,7 +43,7 @@ function Prizes() {
             Global Certifications for
           </h2>
           <h2 className="text-2xl  text-white self-center">
-            Top 2 teams(worth 10k)
+            Top 2 teams(5k individual)
           </h2>
         </div>
         <div className="rounded-[100%] md:rounded-[100%] flex flex-col bg-slate-900 p-10 md:p-20  shadow-2xl shadow-slate-600 text-center align-middle font-ai">
