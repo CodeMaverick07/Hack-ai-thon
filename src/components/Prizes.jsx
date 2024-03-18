@@ -1,10 +1,10 @@
 function Prizes() {
   return (
-    <div className="h-screen mb-52 sm:mb-0" id="prize">
+    <div className="h-full" id="prize">
       <h1 className="text-white  text-5xl md:text-6xl text-center font-ai pt-10 tracking-widest glow">
         PRIZES
       </h1>
-      <div className="flex flex-wrap pt-20 bg-[#11161F] justify-center sm:gap-24 gap-10">
+      <div className="flex max-md:flex-col pt-20 bg-[#11161F] justify-center sm:gap-24 gap-10">
         <div className="rounded-[100%] md:rounded-[100%] flex flex-col bg-zinc-950 p-10 md:p-20  shadow-2xl shadow-slate-600 text-center align-middle font-ai">
           <h1 className="text-white  text-4xl md:text-4xl font-prize self-center">
             💰 Goodies 💰
@@ -13,26 +13,48 @@ function Prizes() {
           <h2 className="text-2xl  text-white self-center">$8000</h2>
         </div>
         <div className="rounded-[100%] md:rounded-[100%] flex flex-col bg-slate-900 p-10 md:p-20  shadow-2xl shadow-slate-600 text-center align-middle font-ai">
-          <h1 className="text-white  text-3xl md:text-4xl font-prize self-center glow">
+          <h1 className="text-white  text-3xl md:text-3xl font-prize self-center glow">
             💸 Prize pool 💸
           </h1>
           <h2 className="text-2xl  text-white self-center glow mt-5">
             cash prize
           </h2>
-          <h2 className="text-2xl  text-white self-center glow">₹15,000</h2>
+          <h2 className="text-2xl  text-white self-center glow">₹10,000</h2>
         </div>
-        <div className="rounded-[100%] md:rounded-[100%] flex flex-col bg-zinc-950 p-3 md:p-8 items-center shadow-2xl shadow-slate-600 text-center align-middle font-ai">
-          <h1 className="text-white  text-5xl md:text-4xl font-prize self-center">
-            Echo 3D
+        <div className="rounded-[100%] md:rounded-[100%] flex flex-col bg-slate-900 p-10 md:p-20 shadow-2xl shadow-slate-600 text-center align-middle font-ai">
+          <h1 className="text-white  text-3xl md:text-4xl font-prize self-center glow">
+            Fidato E-Sports
           </h1>
-          <h2 className="text-2xl  text-white self-center mt-">
-            subscription{" "}
+          <h2 className="text-2xl  text-white self-center glow mt-5">
+            Gaming Voucher
+          </h2>
+          <h2 className="text-2xl  text-white self-center glow">
+            {" "}
+            for Top 150 participants
+          </h2>
+        </div>
+      </div>
+      <div className="flex max-md:flex-col pt-20 bg-[#11161F] justify-center sm:gap-24 gap-10">
+        <div className="rounded-[100%] md:rounded-[100%] flex flex-col bg-zinc-950 p-10 md:p-20  shadow-2xl shadow-slate-600 text-center align-middle font-ai">
+          <h1 className="text-white  text-4xl md:text-4xl font-prize self-center">
+            SYBGEN
+          </h1>
+          <h2 className="text-2xl  text-white self-center mt-5">
+            Global Certifications for
           </h2>
           <h2 className="text-2xl  text-white self-center">
-            for every participant (99$) <br />
-            and certificate 📃
+            Top 2 teams(worth 10k)
           </h2>
         </div>
+        <div className="rounded-[100%] md:rounded-[100%] flex flex-col bg-slate-900 p-10 md:p-20  shadow-2xl shadow-slate-600 text-center align-middle font-ai">
+          <h2 className="text-2xl  text-white self-center glow mt-5">
+            Digitally verifiable certificate for
+          </h2>
+          <h2 className="text-2xl  text-white self-center glow">
+            all participants
+          </h2>
+        </div>
+        \
       </div>
     </div>
   );
