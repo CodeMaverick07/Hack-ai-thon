@@ -56,7 +56,7 @@ const HeroSection = () => {
           end: "top -100%",
         },
 
-        duration: 2,
+        duration: 0.5,
       });
     });
   });
@@ -87,7 +87,7 @@ const HeroSection = () => {
           </div>
           <a
             href="https://hack-ai-thon.devfolio.co/overview"
-            className="absolute z-[100] flex flex-col justify-center text-2xl font-robo font-bold text-white glow gap-3 items-center cursor-pointer"
+            className="absolute z-[100] cursor-pointer"
           >
             <img
               className=" h-[44px] rounded-md "

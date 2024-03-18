@@ -16,9 +16,9 @@ const Header = () => {
     gsap.from("a", {
       opacity: 0,
       y: 10,
-      stagger: 0.3,
+      stagger: 0.1,
       delay: 1,
-      duration: 1.5,
+      duration: 0.5,
     });
   });
   return (
